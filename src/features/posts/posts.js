@@ -79,9 +79,9 @@ const Posts = ({ post }) => {
                             )}
                             {selftext.length > 500 && (
                                 fullText[id] ? (
-                                    <a onClick={() => handleToggleFullText(id)}>Read less</a>
+                                    <p onClick={() => handleToggleFullText(id)}>Read less</p>
                                 ) : (
-                                    <a onClick={() => handleToggleFullText(id)}>Read more</a>
+                                    <p onClick={() => handleToggleFullText(id)}>Read more</p>
                                 )
                             )}
 
