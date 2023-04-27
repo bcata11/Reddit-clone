@@ -3,15 +3,15 @@ import { useSelector, useDispatch } from 'react-redux';
 import '../posts/posts.css'
 
 import {
-    selectSubredditError,
+    
     selectSearchTermFilter,
-    selectSelectedSubreddit,
+
     selectSubredditPosts,
     selectSubredditStatus,
     fetchPosts
 } from './PostsContainerSlice';
 import Posts from '../posts/posts';
-import { activeSubreddit, setActiveSubreddit } from '../subreddits/subRedditsSlice';
+import { activeSubreddit } from '../subreddits/subRedditsSlice';
 //incercam varianta din subreddit
 
 
@@ -21,7 +21,7 @@ const PostsContainer = () => {
 
     const posts = useSelector(selectSubredditPosts);
     const status = useSelector(selectSubredditStatus);
-    const error = useSelector(selectSubredditError);
+    // const error = useSelector(selectSubredditError);
     const searchTermFilter = useSelector(selectSearchTermFilter);
 
     const dispatch = useDispatch();

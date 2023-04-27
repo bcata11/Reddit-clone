@@ -1,4 +1,3 @@
-import redd from './redd.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faComment } from "@fortawesome/free-regular-svg-icons"
 import { faArrowAltCircleUp } from "@fortawesome/free-regular-svg-icons"
@@ -17,7 +16,7 @@ import { useState } from 'react'
 
 
 const Posts = ({ post }) => {
-    const { permalink, id, title, ups, author, is_video, media, url, thumbnail, comments, num_comments, selftext_html, selftext } = post;
+    const { permalink, id, title, ups, author, is_video, media, thumbnail, num_comments, selftext } = post;
 
     const dispatch = useDispatch();
 
