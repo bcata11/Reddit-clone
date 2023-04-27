@@ -1,0 +1,87 @@
+body{
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+
+.heads {
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid #bdbdbd;
+    z-index: 10;
+    background-color: white;
+
+}
+.linkhome {
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1rem;
+    color: #333;
+}
+
+h2 img{
+    height: 1.8rem;
+}
+
+.formular{
+    max-width: 50rem;
+    width: 100%;
+    background: rgba(43, 42, 42, 0.07);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid #bdbdbd;
+
+}
+@media screen and (max-width: 1270px){
+    .formular{
+        max-width: 40rem;
+    }
+}
+@media screen and (max-width: 985px){
+    .formular{
+        max-width: 30rem;
+    }
+}
+@media screen and (max-width: 815px){
+    .formular{
+        max-width: 20rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .formular{
+        max-width: 10rem;
+        margin: 3px;
+    }
+    h2 img{
+        height: 1rem;
+    }
+    h2{
+        font-size: 0.5rem;
+    }
+
+}
+
+.formular input {
+    background: transparent;
+    flex: 2;
+    border: 0;
+    outline: none;
+    padding: 0.1rem 0.1rem;
+    font-size: 1rem;
+
+    color:#333
+}
+
+.formular span{
+   border: 0;
+   color: #bdbdbd;
+}

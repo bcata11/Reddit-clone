@@ -1,0 +1,178 @@
+.listaposturi{
+    display: flex;
+    flex-direction: column;
+}
+
+.link{
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    width: 45rem;
+    /* height: 11rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 2px;
+    margin: 1rem;
+    background-color: white;
+}
+
+.content:hover {
+    transform: translate(2px, -2px);
+}
+
+.contwraper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.headp {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 8px;
+
+}
+
+.pozar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 1rem
+}
+
+.scristit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.scristit h3 {
+    margin-left: 20px;
+    font-weight: 400px;
+    text-decoration: none;
+}
+
+.scristit h3 Link {
+    text-decoration: none;
+}
+
+
+.scristit p {
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+.postbody {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.contentb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.paragraftext a {
+    color: blue;
+}
+
+.contentb p {
+    width: 100%;
+}
+
+.subtit .title {
+    font-size: 15px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.paragraftext{
+    padding-left: 10px;
+}
+
+.buttonsa {
+    padding-left: 10px;
+    position: relative;
+}
+
+.buttonsa a {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #333;
+}
+
+.comi {
+    margin-right: 5px;
+}
+
+.containerpoza {
+    padding: 0;
+    width: 30%;
+}
+
+.pozasub {
+    height: 100px;
+    width: 160px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.upvotes {
+    background-color: rgba(0, 0, 0, 0.08);
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.16);
+
+}
+
+@media screen and (max-width: 1024px){
+    .content{
+        width: 35rem;
+    }
+}
+
+@media screen and (max-width: 835px){
+    .content{
+        width: 30rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .content{
+        width: 35rem;
+    }
+
+}
+
+@media screen and (max-width: 695px){
+    .content{
+        width: 27rem;
+    }
+
+}
+
+@media screen and (max-width: 535px){
+    .content{
+        width: 22rem;
+    }
+
+}
