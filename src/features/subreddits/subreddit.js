@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 
-import { activeSubreddit, loadSubs } from './subRedditsSlice';
+import { loadSubs } from './subRedditsSlice';
 import logo from "./logo.png"
 
 import { setActiveSubreddit } from './subRedditsSlice';

@@ -2,7 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleUp } from "@fortawesome/free-regular-svg-icons"
 import { faArrowAltCircleDown } from "@fortawesome/free-regular-svg-icons"
-import { faComment } from "@fortawesome/free-regular-svg-icons"
 import acc from './acc.png';
 import CommentReplies from './CommentReplies';
 

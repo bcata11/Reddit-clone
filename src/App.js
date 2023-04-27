@@ -6,12 +6,12 @@ import { Route, Routes } from "react-router-dom"
 import Post from './features/Post/Post';
 import { activeSubreddit } from './features/subreddits/subRedditsSlice';
 import { useSelector } from 'react-redux';
-import { selectSelectedPostId } from './features/Post/postSlice';
+
 
 function App() {
  
   const active = useSelector(activeSubreddit)
-  const postId = useSelector(selectSelectedPostId)
+
 
   return (
     <>
